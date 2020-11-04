@@ -4,3 +4,45 @@
   font-family: Roboto, Arial, sans-serif;
   box-sizing: border-box;
 }
+
+body {
+  background: #cacaca;
+}
+
+nav {
+  background-color: #363636;
+}
+
+a.menu {
+  color: white;
+  display: inline-block;
+  width: 25%;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.menu:hover {
+  background-color: blueviolet;
+}
+
+.active {
+  background: blueviolet;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: whitesmoke;
+}
+
+#programmer {
+  height: 200px;
+  background-repeat: repeat;
+  width: 100%;
+  display: block;
+}
+
+#stevejobs {
+  max-width: 300px;
+}
