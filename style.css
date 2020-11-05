@@ -10,20 +10,24 @@ body {
 }
 
 nav {
-  background-color: #363636;
+  overflow: hidden;
 }
 
-a.menu {
-  color: white;
-  display: inline-block;
+nav a {
+  display: block;
   width: 25%;
-  padding: 15px 30px;
-  text-decoration: none;
+  float: left;
   text-align: center;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: white;
+  background-color: #363636;
+  transition: all 1s ease;
 }
 
 a.menu:hover {
   background-color: blueviolet;
+  cursor: pointer;
 }
 
 .active {
@@ -82,4 +86,10 @@ footer {
   background-color: blueviolet;
   text-align: center;
   margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  nav a {
+    width: 50%;
+  }
 }
