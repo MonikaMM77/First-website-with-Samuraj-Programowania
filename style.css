@@ -30,6 +30,26 @@ a.menu:hover {
   background: blueviolet;
 }
 
+article h1 {
+  text-align: center;
+  margin: 0 10% 50px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid blueviolet;
+  font-size: 20px;
+}
+
+article {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+article p {
+  text-align: justify;
+  line-height: 25px;
+  padding: 10px 0;
+}
+
 #wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -45,4 +65,21 @@ a.menu:hover {
 
 #stevejobs {
   max-width: 300px;
+  width: 25%;
+  float: left;
+  margin: 0 10px 10px 0;
+  border-radius: 15%;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: blueviolet;
+  text-align: center;
+  margin-top: 10px;
 }
